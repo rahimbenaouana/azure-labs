@@ -2,7 +2,7 @@
 
 **Rahim Benaouana** | Montreal, Canada  
 AZ-900 Certified | AZ-104 In Progress  
-https://www.linkedin.com/in/rahim-benaouana/ | abderrahimbenaouana@gmail.com
+https://www.linkedin.com/in/rahim-benaouana/ | 
 
 ---
 
