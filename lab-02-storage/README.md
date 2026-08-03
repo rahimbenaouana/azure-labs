@@ -42,7 +42,7 @@ Resource Group: lab-02-rg (Canada East)
 
 ![File Uploaded](03-file-uploaded.png)
 
-**5. Generated SAS token** for `lab-02-test.txt` — Read permission only, 1 hour expiry, HTTPS only, signed with account Key 1.
+**5. Generated SAS token** for `lab-02-test.txt` — Read permission only, 1 hour expiry, HTTPS only.
 
 ![SAS Token](04-sas-token.png)
 
