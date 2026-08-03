@@ -81,4 +81,4 @@ Resource Group: lab-01-rg (Canada East)
 
 ## AZ-104 Topics Covered
 - Implement Virtual Networking (VNet, subnet, NSG)
-- Manage Virtual Machines (deployment, connectivity, auto-shutdown)
+- Manage Virtual Machines 
