@@ -24,14 +24,40 @@ Resource Group: lab-01-rg (Canada East)
 | Virtual Machine | lab-01-vm | Windows Server 2022, Standard D2s v3 |
 
 ## Steps
-1. Created Resource Group `lab-01-rg` in Canada East with tags
-2. Created VNet `lab-01-vnet` (10.0.0.0/16) with subnet `lab-01-subnet` (10.0.0.0/24)
-3. Created NSG `lab-01-nsg` and added inbound rule to allow RDP (port 3389) from my IP only
-4. Associated NSG to `lab-01-subnet`
-5. Created VM `lab-01-vm` — Windows Server 2022, no public inbound ports (NSG handles it)
-6. Configured auto-shutdown at 8:00 PM Eastern Time
-7. Connected via RDP — landed on Windows Server Manager dashboard
-8. Deleted `lab-01-rg` to remove all resources at end of session
+
+**1. Created Resource Group** `lab-01-rg` in Canada East with Environment and Project tags.
+
+![Resource Group](01-resource-group.png)
+
+**2. Created Virtual Network** `lab-01-vnet` (10.0.0.0/16) with subnet `lab-01-subnet` (10.0.0.0/24).
+
+![Virtual Network](02-vnet.png)
+
+**3. Created NSG** `lab-01-nsg` — default rules deny all inbound traffic.
+
+![NSG Overview](03-nsg-overview.png)
+
+**4. Added inbound rule** to allow RDP (port 3389, TCP) from my IP only, priority 1000.
+
+![RDP Rule](04-nsg-rdp-rule.png)
+
+**5. Associated NSG** to `lab-01-subnet` — all resources in the subnet are now protected.
+
+![NSG Subnet Association](05-nsg-subnet.png)
+
+**6. Deployed VM** `lab-01-vm` — Windows Server 2022, Canada East, connected to `lab-01-vnet/lab-01-subnet`.
+
+![VM Overview](07-vm-overview.png)
+
+**7. Configured auto-shutdown** at 8:00 PM Eastern Time with email notification.
+
+![Auto-shutdown](06-vm-autoshutdown.png)
+
+**8. Connected via RDP** — Windows Server Manager dashboard confirmed successful connection.
+
+![RDP Connected](08-rdp-connected.jpg)
+
+**9. Deleted** `lab-01-rg` at end of session — removes all resources at once.
 
 ## Problem I Hit
 **Problem:** Downloaded RDP file was blocked by Windows Smart App Control and wouldn't open.  
