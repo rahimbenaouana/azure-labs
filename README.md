@@ -18,6 +18,7 @@ Each lab includes: business scenario, architecture, steps, screenshots, problems
 | # | Lab | Topics Covered | Status |
 |---|---|---|---|
 | 01 | [VM + VNet + NSG](lab-01-vm-vnet/README.md) | Resource Group, VNet, Subnet, NSG, Windows VM, RDP, Auto-shutdown | ✅ Complete |
+| 02 | [Blob Storage + SAS Token](lab-02-storage/README.md) | Storage Account, Blob Container, SAS Token, Access Tiers | ✅ Complete |
 ---
 
 ## Certifications
