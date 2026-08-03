@@ -64,11 +64,7 @@ Resource Group: lab-02-rg (Canada East)
 - Resource Group deleted at end of session — zero ongoing cost
 
 ## What I'd Do in Production
-- Use a Stored Access Policy instead of an ad-hoc SAS — allows revoking access centrally
-  without waiting for expiry
-- Use User Delegation SAS instead of Account Key SAS — backed by Entra ID,
-  more secure than sharing account keys
-- Enable blob versioning for critical files — allows recovery from accidental deletion or overwrite
+- Use a Stored Access Policy to allow revoking access centrally without waiting for expiry
 - Set lifecycle management policies to move old files to Cool or Archive tier automatically
 
 ## AZ-104 Topics Covered
