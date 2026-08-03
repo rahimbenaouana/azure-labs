@@ -30,29 +30,25 @@ Resource Group: lab-02-rg (Canada East)
 
 **1. Created Resource Group** `lab-02-rg` in Canada East with Environment and Project tags.
 
-![Resource Group](01-resource-group.png)
+**2. Created Storage Account** `rahimlab02storage` — Standard performance, LRS replication, Blob anonymous access disabled.
 
-**2. Created Storage Account** `rahimlab02storage` — Standard performance, LRS replication,
-Blob anonymous access disabled.
-
-![Storage Account](02-storage-account.png)
+![Storage Account](01-storage-account.png)
 
 **3. Created container** `lab-02-container` with Private access — no anonymous access to any blob.
 
-![Container](03-container.png)
+![Container](02-container.png)
 
 **4. Uploaded** `lab-02-test.txt` to the container — Block blob, Hot access tier.
 
-![File Uploaded](04-file-uploaded.png)
+![File Uploaded](03-file-uploaded.png)
 
-**5. Generated SAS token** for `lab-02-test.txt` — Read permission only, 1 hour expiry,
-HTTPS only, signed with account Key 1.
+**5. Generated SAS token** for `lab-02-test.txt` — Read permission only, 1 hour expiry, HTTPS only, signed with account Key 1.
 
-![SAS Token](05-sas-token.png)
+![SAS Token](04-sas-token.png)
 
 **6. Tested SAS URL** in browser — file content accessible without any login or credentials.
 
-![SAS Test](06-sas-test.png)
+![SAS Test](05-sas-test.png)
 
 **7. Deleted** `lab-02-rg` at end of session.
 
