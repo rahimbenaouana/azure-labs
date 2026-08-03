@@ -10,7 +10,9 @@ shutdown configured to control costs.
 ## Architecture
 
 Resource Group: lab-01-rg (Canada East)
+
 └── VNet: lab-01-vnet (10.0.0.0/16)
+
 └── Subnet: lab-01-subnet (10.0.0.0/24)
 └── NSG: lab-01-nsg
 └── VM: lab-01-vm (Windows Server 2022, Standard D2s v3)
