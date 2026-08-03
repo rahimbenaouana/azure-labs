@@ -16,8 +16,8 @@ Resource Group: lab-01-rg (Canada East)
 └── VM: lab-01-vm (Windows Server 2022, Standard D2s v3)
 
 ## Resources Created
-| Resource | Name | Details |
-| Resource Group | lab-01-rg | Canada East |
+| Resource |---------------------- Name | -------------------------------------Details |
+| Resource Group |------------- lab-01-rg | -------------------------------Canada East |
 | Virtual Network | lab-01-vnet | 10.0.0.0/16 |
 | Subnet | lab-01-subnet | 10.0.0.0/24 |
 | Network Security Group | lab-01-nsg | Attached to subnet |
