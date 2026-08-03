@@ -15,10 +15,9 @@ Each lab includes: business scenario, architecture, steps, screenshots, problems
 
 ## Labs
 
-| # | Lab | Skills | Status |
-|---|-----|--------|--------|
-| 01 | VNet + VM + NSG | Networking, Compute | 🔜 Coming soon |
-
+| # | Lab | Topics Covered | Status |
+|---|---|---|---|
+| 01 | [VM + VNet + NSG](lab-01-vm-vnet/README.md) | Resource Group, VNet, Subnet, NSG, Windows VM, RDP, Auto-shutdown | ✅ Complete |
 ---
 
 ## Certifications
