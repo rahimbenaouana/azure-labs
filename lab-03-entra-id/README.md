@@ -41,7 +41,7 @@ both users added as members, IT admin set as owner.
 
 **5. Deleted both users permanently** from Entra ID at end of session.
 
-![Delete Users](04-delete-users.png)
+![Delete Users](05-delete-users.png)
 
 ## Security Decisions
 - Security group used instead of assigning permissions to individual users —
