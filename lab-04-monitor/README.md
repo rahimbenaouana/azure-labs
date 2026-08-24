@@ -7,11 +7,17 @@ exceeds safe levels, so the IT admin can respond before users are impacted.
 ## Architecture
 
 Resource Group: lab-04-rg (Canada East)
+
 └── Virtual Machine: lab-04-vm (Windows Server 2022)
+
 └── Azure Monitor
+
 └── Alert Rule: High-CPU-Alert
+
 └── Condition: Percentage CPU > 80% (avg, 5 min)
+
 └── Action Group: lab-04-action-group
+
 └── Notification: Email alert
 
 
@@ -28,27 +34,27 @@ Resource Group: lab-04-rg (Canada East)
 
 **1. Deployed VM** `lab-04-vm` in Canada East — Windows Server 2022, tags applied.
 
-![VM Running](vm running.png)
+![VM Running](vmrunning.png)
 
 **2. Configured alert condition** — Percentage CPU, static threshold,
 greater than 80%, average aggregation, checked every 1 minute over 5 minutes.
 
-![Alert Condition](vm alert condition.png)
+![Alert Condition](vmalertcondition.png)
 
 **3. Configured action group** — email notification triggered automatically
 when alert fires.
 
-![Alert Actions](vm alert actions.png)
+![Alert Actions](vmalertactions.png)
 
 **4. Set alert details** — name: High-CPU-Alert, severity: 2 Warning,
 saved to lab-04-rg.
 
-![Alert Details](vm alert details.png)
+![Alert Details](vmalertdetails.png)
 
 **5. Confirmed alert rule active** — Enabled, targeting lab-04-vm,
 Percentage CPU > 80, signal type Metrics.
 
-![Alert Rule Active](alert rule.png)
+![Alert Rule Active](alertrule.png)
 
 **6. Verified live CPU metrics** — chart shows average CPU at 17-25%
 during VM startup spike.
