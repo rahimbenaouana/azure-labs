@@ -35,5 +35,5 @@ Each lab includes: business scenario, architecture, steps, screenshots, problems
 ---
 
 ## Certifications
-- ✅ AZ-900 — Microsoft Azure Fundamentals
+✅ AZ-900 — Microsoft Azure Fundamentals
 
