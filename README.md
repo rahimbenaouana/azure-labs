@@ -1,7 +1,7 @@
 # Azure Labs Portfolio
 
 **Rahim Benaouana** | Montreal, Canada  
-AZ-900 Certified |  
+AZ-900 Certified 
 https://www.linkedin.com/in/rahim-benaouana/ | 
 
 ---
