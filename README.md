@@ -2,6 +2,7 @@
 
 **Rahim Benaouana** | Montreal, Canada  
 AZ-900 Certified 
+
 https://www.linkedin.com/in/rahim-benaouana/ | 
 
 ---
